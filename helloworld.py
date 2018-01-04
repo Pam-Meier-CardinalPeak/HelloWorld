@@ -2,6 +2,8 @@ import unittest
 from unnecessary_math import multiply
 from unnecessary_math import add
 from unnecessary_math import subtract
+from unnecessary_math import divide
+from str_func import *
 
 
 class HelloWorld(unittest.TestCase):
@@ -20,6 +22,12 @@ class HelloWorld(unittest.TestCase):
 
     def test_numbers_4_3(self):
         self.assertEqual(subtract(4, 3), 1)
+
+    def test_numbers_20_5(self):
+        self.assertEqual(divide(20, 5), 4)
+
+    def test_str_func1(self):
+        self.assertEqual(reverse('abc'), 'cba')
 
 
 if __name__ == '__main__':
