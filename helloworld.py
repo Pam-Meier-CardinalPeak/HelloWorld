@@ -1,6 +1,7 @@
 import unittest
 from unnecessary_math import multiply
 from unnecessary_math import add
+from unnecessary_math import subtract
 
 
 class HelloWorld(unittest.TestCase):
@@ -14,8 +15,11 @@ class HelloWorld(unittest.TestCase):
     def test_strings_a_3(self):
         self.assertEqual(multiply('a', 3), 'aaa')
 
+    def test_numbers_4_3_fail(self):
+        self.assertEqual(add(4, 3), 7)
+
     def test_numbers_4_3(self):
-        self.assertEqual(add(4,3),7)
+        self.assertEqual(subtract(4, 3), 1)
 
 
 if __name__ == '__main__':
