@@ -29,6 +29,9 @@ class HelloWorld(unittest.TestCase):
     def test_str_func1(self):
         self.assertEqual(reverse('abc'), 'cba')
 
+    def test_str_func2(self):
+        self.assertEqual(firstLetter('abc'), 'a')
+
 
 if __name__ == '__main__':
     print("Hello World")
