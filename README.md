@@ -1,2 +1,2 @@
 # HelloWorld
-Just a Test
+Configuring Project in Pycharm under version control.
