@@ -5,7 +5,11 @@ def reverse(s):
     return a
 
 
-def firstLetter(s):
+def first_letter(s):
     return s[0]
+
+
+def last_letter(s):
+    return s[str(len(s)-1)]
 
 
