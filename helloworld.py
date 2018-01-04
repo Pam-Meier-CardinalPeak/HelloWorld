@@ -30,7 +30,10 @@ class HelloWorld(unittest.TestCase):
         self.assertEqual(reverse('abc'), 'cba')
 
     def test_str_func2(self):
-        self.assertEqual(firstLetter('abc'), 'a')
+        self.assertEqual(first_letter('abc'), 'a')
+
+    def test_str_func2(self):
+        self.assertEqual(first_letter('abc'), 'c')
 
 
 if __name__ == '__main__':
