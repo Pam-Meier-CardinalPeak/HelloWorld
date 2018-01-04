@@ -4,3 +4,8 @@ def reverse(s):
         a = a + s[i]
     return a
 
+
+def firstLetter(s):
+    return s[0]
+
+
