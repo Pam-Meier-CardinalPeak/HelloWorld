@@ -1,0 +1,12 @@
+# User-specific stuff for Pycharm
+.idea/dictionaries
+.idea/hidraw.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea.vcs.xml
+.idea/**/workspace.xml
+.idea
+
+# For Virtual Environment for Pycharm
+/venv/
+

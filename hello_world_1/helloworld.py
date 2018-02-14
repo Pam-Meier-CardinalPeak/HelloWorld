@@ -1,9 +1,9 @@
 import unittest
-from unnecessary_math import multiply
-from unnecessary_math import add
-from unnecessary_math import subtract
-from unnecessary_math import divide
-from str_func import *
+from hello_world_1.unnecessary_math import multiply
+from hello_world_1.unnecessary_math import add
+from hello_world_1.unnecessary_math import subtract
+from hello_world_1.unnecessary_math import divide
+from hello_world_1.str_func import *
 
 
 class HelloWorld(unittest.TestCase):
