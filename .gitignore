@@ -10,3 +10,5 @@
 # For Virtual Environment for Pycharm
 /venv/
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
